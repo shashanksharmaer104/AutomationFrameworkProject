@@ -17,7 +17,7 @@ public class TestAdminLoginPage {
 	
 	@BeforeTest
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shashank Sharma\\workspace\\talentCentralAutomationProject\\browserDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shashank Sharma\\workspace\\AutomationFrameworkProject\\browserDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
